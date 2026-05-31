@@ -36,3 +36,14 @@ cdd() {
     return 1
   fi
 }
+
+
+
+pwdd() {
+  if [ -z "$1" ]; then
+    echo "usage: pwdd <prefix>"
+    return 1
+  fi
+
+  find "$(pwd)" -name "$1*" -print
+}
