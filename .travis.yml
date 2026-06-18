@@ -1,0 +1,4 @@
+language: minimal
+
+script:
+  - sh ./test.sh
