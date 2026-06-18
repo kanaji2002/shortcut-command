@@ -14,7 +14,7 @@ XXXディレクトリ作成後にcd でXXXに入るのと同じ
 ## pwdd　コマンド
 ２番目に入力した文字列が含まれるファイルまたはフォルダのフルパスを表示
 
-### 使い方
+### 使い方（User)
 pwdd ex
 /current path/example.txt
 /current path/example
