@@ -1,4 +1,7 @@
-language: minimal
+language: python
+python:
+  - "3.10"
 
 script:
-  - sh ./test.sh
+  - python --version
+  - python test.py
